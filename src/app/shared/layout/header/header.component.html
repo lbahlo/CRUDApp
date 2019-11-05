@@ -1,0 +1,33 @@
+<div style="height: 100vh;">
+    <mat-toolbar color="accent">
+        <span>Product App</span>
+    
+        <span class="example-spacer"></span>
+    
+        <div fxShow="true" fxHide.lt-md="true">
+             <a routerLink="product/create"  class="mat-button>Menu"  routerLinkActive="active">Create Product</a>
+            <a routerLink="product/create" class="nav-link" routerLinkActive="active">Create Product</a>
+            <a routerLink="products" class="nav-link" routerLinkActive="active">Products</a>
+        </div>
+    
+        <!-- <div fxShow="true" fxHide.gt-sm="true">
+        <a href="#" (click)="sidenav.toggle()">Show Side Menu</a>
+        </div> -->
+    </mat-toolbar>
+      
+  <!--
+        <mat-sidenav-container fxFlexFill class="example-container">
+          <mat-sidenav #sidenav fxLayout="column">
+            <div fxLayout="column">
+              <a (click)="sidenav.toggle()" href="#" mat-button>Close</a>
+              <a href="#" mat-button>Menu Item 1</a>
+              <a href="#" mat-button>Menu Item 2</a>
+              <a href="#" mat-button>Menu Item 3</a>
+              <a href="#" mat-button>Menu Item 4</a>
+              <a href="#" mat-button>Menu Item 5</a>
+              <a href="#" mat-button>Menu Item 6</a>
+            </div>
+          </mat-sidenav>
+          <mat-sidenav-content fxFlexFill>Main content</mat-sidenav-content>
+        </mat-sidenav-container> -->
+</div>
