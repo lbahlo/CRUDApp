@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { ProductAddComponent } from './components/product-add/product-add.component';
 import { ProductGetComponent } from './components/product-get/product-get.component';
 import { ProductEditComponent } from './components/product-edit/product-edit.component';
+import { ProductsServiceMock } from '../product/products.service.mock';
 
 import {
   MatButtonModule,
@@ -18,6 +19,7 @@ import {
   MatProgressBarModule,
   MatCardModule
 } from '@angular/material';
+
 
 @NgModule({
   declarations: [ProductAddComponent, ProductGetComponent, ProductEditComponent],
@@ -35,6 +37,8 @@ import {
     ProductAddComponent,
     ProductGetComponent,
     ProductEditComponent
-  ]
+  ],
+  providers: [ProductsServiceMock]
 })
+
 export class ProductModule { }

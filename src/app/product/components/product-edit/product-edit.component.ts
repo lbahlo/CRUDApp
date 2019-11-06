@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductsService } from '../../products.service';
+import { ProductsServiceMock } from '../../products.service.mock';
 
 @Component({
   selector: 'app-product-edit',
@@ -15,7 +16,7 @@ export class ProductEditComponent implements OnInit {
   angForm: FormGroup;
   product: any = {};
 
-  constructor(private route: ActivatedRoute, private router: Router, private ps: ProductsService, private fb: FormBuilder) {
+  constructor(private route: ActivatedRoute, private router: Router, private ps: ProductsServiceMock, private fb: FormBuilder) {
       this.createForm();
  }
 
