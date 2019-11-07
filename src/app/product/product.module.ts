@@ -17,7 +17,11 @@ import {
   MatSidenavModule,
   MatToolbarModule,
   MatProgressBarModule,
-  MatCardModule
+  MatCardModule,
+  MatInputModule,
+  MatPaginatorModule,
+  MatSortModule,
+  MatProgressSpinnerModule
 } from '@angular/material';
 
 
@@ -31,7 +35,11 @@ import {
     MatButtonModule,
     MatGridListModule,
     MatTableModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatProgressSpinnerModule
   ],
   exports: [
     ProductAddComponent,

@@ -8,7 +8,6 @@ import { ProductsServiceMock } from '../../products.service.mock';
   templateUrl: './product-get.component.html',
   styleUrls: ['./product-get.component.scss']
 })
-
 export class ProductGetComponent implements OnInit, AfterViewInit  {
  
   //@ViewChild('theTable', {static: false}) theTable: ElementRef;
